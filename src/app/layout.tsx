@@ -14,9 +14,10 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://shuhrat-kholiqnazarov.vercel.app"),
   title: "Shuhrat Kholiqnazarov — Front-End Developer",
   description:
-    "Front-end developer from Dushanbe, Tajikistan. React, Next.js, TypeScript, Tailwind CSS. Projects: WELFOX, RentArena, Villa Fenix and more.",
+    "Front-end developer from Dushanbe, Tajikistan. React, Next.js, TypeScript, Tailwind CSS. Projects: WELFOX, RentArena, Ormed Premium and more.",
   openGraph: {
     title: "Shuhrat Kholiqnazarov — Front-End Developer",
     description: "React · Next.js · TypeScript · Tailwind CSS",
