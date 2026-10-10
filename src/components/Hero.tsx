@@ -14,7 +14,7 @@ const fade = (delay: number) => ({
 });
 
 export function Hero() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
 
   return (
     <section id="top" className="relative overflow-hidden">
@@ -65,7 +65,7 @@ export function Hero() {
               {t.hero.ctaContact}
             </a>
             <a
-              href="/resume.pdf"
+              href={`/resume-${lang}.pdf`}
               target="_blank"
               className="inline-flex items-center gap-1.5 rounded-full px-4 py-3.5 font-semibold text-muted underline-offset-4 transition-colors hover:text-fg hover:underline"
             >
