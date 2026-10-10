@@ -72,17 +72,6 @@ export const projects: Project[] = [
     github: "https://github.com/ShuxratXoliqnazarov/Ormed-Premium",
   },
   {
-    id: "villafenix",
-    title: "Villa Fenix Expo",
-    tag: { en: "Production · Multilingual", ru: "Продакшн · Мультиязычный" },
-    description: {
-      en: "Production exhibition platform for onboarding business participants from many countries: registration and application flows, interactive map, international phone input and full internationalization.",
-      ru: "Продакшн-платформа выставки для участников из разных стран: регистрация и подача заявок, интерактивная карта, международный ввод телефона и полная интернационализация.",
-    },
-    stack: ["React", "Vite", "Zustand", "Ant Design", "Tailwind CSS", "Leaflet"],
-    live: "https://expophoenix.com/",
-  },
-  {
     id: "fastcart",
     title: "Fast-Cart",
     tag: { en: "E-commerce", ru: "Интернет-магазин" },

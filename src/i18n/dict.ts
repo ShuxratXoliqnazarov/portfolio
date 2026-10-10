@@ -27,8 +27,8 @@ export const dict = {
       p1: "I'm a front-end developer from Dushanbe. I graduated from the Front-End course at Softclub Academy and study Software Engineering at the Technology University of Tajikistan.",
       p2: "I care about the details: clean code, smooth animations and interfaces that feel good on every screen. My projects are used by real people — from a game top-up store with online payments to a sports field booking platform.",
       stats: [
-        { value: "7+", label: "projects shipped" },
-        { value: "2", label: "live production products" },
+        { value: "6+", label: "projects shipped" },
+        { value: "1", label: "live store with real payments" },
         { value: "3", label: "UI languages in my apps" },
       ],
       languages: "Languages",
@@ -110,8 +110,8 @@ export const dict = {
       p1: "Я front-end разработчик из Душанбе. Окончил курс Front-End в Softclub Academy и учусь на программного инженера в Технологическом университете Таджикистана.",
       p2: "Мне важны детали: чистый код, плавные анимации и интерфейсы, которыми удобно пользоваться на любом экране. Моими проектами пользуются реальные люди — от магазина доната с онлайн-оплатой до платформы бронирования спортивных полей.",
       stats: [
-        { value: "7+", label: "готовых проектов" },
-        { value: "2", label: "продукта в продакшене" },
+        { value: "6+", label: "готовых проектов" },
+        { value: "1", label: "магазин с реальной оплатой" },
         { value: "3", label: "языка интерфейса в моих приложениях" },
       ],
       languages: "Языки",

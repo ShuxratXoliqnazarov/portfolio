@@ -107,7 +107,7 @@ function FeaturedCard({ project, reverse }: { project: Project; reverse?: boolea
 function Card({ project, index }: { project: Project; index: number }) {
   const { lang } = useLang();
   return (
-    <Reveal delay={(index % 2) * 0.08} className="h-full">
+    <Reveal delay={(index % 3) * 0.08} className="h-full">
       <article className="group flex h-full flex-col gap-5 rounded-3xl border border-line bg-surface p-4 transition-colors hover:border-fg/20 sm:p-5">
         <Preview project={project} />
         <div className="flex flex-1 flex-col gap-4 px-1">
@@ -139,7 +139,7 @@ export function Projects() {
         ))}
       </div>
 
-      <div className="mt-6 grid gap-6 sm:grid-cols-2">
+      <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {rest.map((p, i) => (
           <Card key={p.id} project={p} index={i} />
         ))}
